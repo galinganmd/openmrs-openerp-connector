@@ -1,0 +1,15 @@
+<openerp>
+<data noupdate="0">
+
+<record id="a01" model="openmrs.connect" >
+    <field name="ip_address">localhost</field>
+    <field name="port">3306</field>
+    <field name="username">root</field>
+    <field name="password">root</field>
+    <field name="database">openmrs</field>
+    <field name="identifier_type">2</field>
+
+</record>
+
+</data>
+</openerp>

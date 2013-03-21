@@ -1,0 +1,5 @@
+id,name,model_id:id,group_id:id,perm_read,perm_write,perm_create,perm_unlink
+access_clinic_encoder_user,res.partner,model_res_partner,clinic_encoder_user,1,1,1,0
+access_clinic_encoder_user_address,res.partner.address,base.model_res_partner_address,clinic_encoder_user,1,1,1,0
+access_clinic_encoder_config,openmrs.connect,model_openmrs_connect,clinic_encoder_user,1,0,0,0
+

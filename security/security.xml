@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<openerp>
+<data>
+    <record id="clinic_encoder_user" model="res.groups">
+        <field name="name">Clinic Encoder</field>
+    </record>
+
+    <record id="menu_patient_encoding" model="ir.ui.menu">
+        <field name="groups_id" eval="[(6,0,[ref('clinic_encoder_user')])]}"></field>
+    </record>
+
+</data>
+</openerp>
