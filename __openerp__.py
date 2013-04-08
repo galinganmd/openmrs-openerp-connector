@@ -18,6 +18,11 @@ If a push does not occur, the record will be marked for
 synchronization and could be manually pushed in the button
 on the form at the Configuration menu.
 
+The module uses the Philippine General Hospital module for 
+Patient Enrollment created by Mr. Edwin Gonzales and Mr. Jaynar Santos
+and has been modified to incorporate the hooks on the Write and Create function.
+
+
 """,
     "website" : "",
     "init_xml" : [],
